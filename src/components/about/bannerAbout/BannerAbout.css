@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Satisfy";
+    src: url("../../../accest/fonts/Satisfy-Regular.ttf");
+  }
+.image_principal{
+    width: 450px;
+}
+
+.cards-Valores{
+    font-size: 17px;
+    
+    
+}
+.text-abouUs{
+    font-size: 17px;
+
+}
+
+
+  .tittle{
+    font-family: "Satisfy";
+    font-weight: bold;
+  }
+@media (max-width: 600px) {
+    .cards-Valores{
+
+        font-size: 12px;
+    }
+    .image_principal{
+        width: 245px;
+ 
+    }
+    .text-abouUs{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .imagen_Negocio{
+        width: 270px;
+
+    }
+  }

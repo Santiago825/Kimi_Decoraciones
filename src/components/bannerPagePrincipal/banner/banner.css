@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Satisfy";
+    src: url("../../../accest/fonts/Satisfy-Regular.ttf");
+  }
+  @font-face {
+    font-family: "NerkoOne";
+    src: url("../../../accest/fonts/NerkoOne-Regular.ttf");
+  }
+  .tittle{
+    font-family: Satisfy;
+    font-weight: bold;
+  }
+  .title_principal{
+    font-family: NerkoOne;
+    font-weight: bold;
+    
+  }

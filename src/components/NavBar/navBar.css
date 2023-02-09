@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "NerkoOne";
+    src: url("../../accest/fonts/NerkoOne-Regular.ttf");
+  }
+
+  .logo_tittle{
+    font-family: "NerkoOne";
+  }
