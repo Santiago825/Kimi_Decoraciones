@@ -5,21 +5,12 @@ import SendIcon from "@mui/icons-material/Send";
 
 import Slideshow from "../Slideshow/slideshow";
 import "./banner.css";
+import {decoraciones} from "../../../data/decoraciones" 
 
-const collection = [
-  {
-    src: "https://raw.githubusercontent.com/Santiago825/villaplast/main/src/img/fiestaskimi-20221130-0013.jpg",
-  },
-  {
-    src: "https://raw.githubusercontent.com/Santiago825/villaplast/main/src/img/fiestaskimi-20221130-0012.webp",
-  },
-  {
-    src: "https://raw.githubusercontent.com/Santiago825/villaplast/main/src/img/fiestaskimi-20221130-0011.jpg",
-  },
-  {
-    src: "https://raw.githubusercontent.com/Santiago825/villaplast/main/src/img/fiestaskimi-20221130-0014.jpg",
-  },
-];
+
+const data=decoraciones.eventos
+
+
 
 class Banner extends React.Component {
   constructor(props) {
@@ -49,7 +40,7 @@ class Banner extends React.Component {
         </Col>
         <Col xs={12} xl={6}>
           <Slideshow
-            input={collection}
+            input={data}
             ratio={`4:2`}
             mode={`automatic`}
             timeout={`3000`}

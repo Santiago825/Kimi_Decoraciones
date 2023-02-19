@@ -7,15 +7,14 @@ import {decoraciones} from '../../data/decoraciones'
 import "./carruselProductos.css";
 
 function CarruselProductos() {
-  const data =decoraciones;
-  console.log(data.productos);
+  const data =decoraciones.Bouquets[0];
+
 
 
   return (
     <Container className="my-5">
       <Row className="mx-3 ">
-        <h4 className="d-flex justify-content-start">{data.title}</h4>
-        <div className="linea-productos"></div>
+h        <div className="linea-productos"></div>
       </Row>
 
       <Row>
