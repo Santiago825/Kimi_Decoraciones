@@ -55,10 +55,10 @@ export const decoraciones = {
             src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_2.jpg",
         },
         {
-            src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_3.jpg",
+            src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_3.webp",
         },
         {
-            src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_4.jpg",
+            src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_4.webp",
         },
         {
             src: "https://raw.githubusercontent.com/Santiago825/Kimi_Decoraciones/main/src/accest/img/img_home/Evento_5.jpg",
